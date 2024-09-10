@@ -22,14 +22,19 @@ What things you need to install the software and how to install them
 > [!NOTE]  
 > Must be above v17.8+ to support .Net 8
 
-2. Install Microsoft SQL Server Management Studio (SSMS) <br>
-Follow tutorial : https://www.c-sharpcorner.com/article/how-to-install-sql-server-20222/
-
-3. Clone git repository via visual studio
+2. Clone git repository via visual studio
    
-4. Build and Run using Visual Studio 2022
+3. Build and Run using Visual Studio 2022
 
 -> Clone repository using VS, build and run both applications
 
 
+## Design
 
+Here’s a rephrased version:
+
+### Image Uploader Tool
+**Functionality**: Enables users to upload images, which are then sent to the Photo Library API. The uploaded images are stored in a designated folder.
+
+### PhotoLibrary Web
+**Functionality**: Receives images uploaded via the API, stores them in a local folder, and provides a webpage for browsing all uploaded images.
