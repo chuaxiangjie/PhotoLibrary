@@ -31,8 +31,6 @@ What things you need to install the software and how to install them
 
 ## Design
 
-Here’s a rephrased version:
-
 ### Image Uploader Tool
 **Functionality**: Enables users to upload images, which are then sent to the Photo Library API. The uploaded images are stored in a designated folder.
 
