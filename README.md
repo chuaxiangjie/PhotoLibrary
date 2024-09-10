@@ -33,6 +33,3 @@ Follow tutorial : https://www.c-sharpcorner.com/article/how-to-install-sql-serve
 
 
 
-## Preview
-
-
