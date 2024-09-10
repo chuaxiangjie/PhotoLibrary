@@ -1,0 +1,23 @@
+﻿@model IEnumerable<string>
+
+@{
+    ViewData["Title"] = "Image Gallery";
+}
+
+
+<div class="text-center">
+    <h1>Image Gallery</h1>
+    <div class="container">
+        <div class="row">
+            @foreach (var fileName in Model)
+            {
+                var imageUrl = Url.Content("~/uploads/" + fileName);
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="@imageUrl" class="card-img-top" alt="@fileName" style="max-height: 300px; object-fit: contain;" />
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
